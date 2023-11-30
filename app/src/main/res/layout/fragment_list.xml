@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListFragment"
+    android:orientation="vertical">
+
+    <!-- 1 LinearLayout -->
+    <LinearLayout
+        android:id="@+id/linear_layout_item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onClickLinear">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/correr" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extremitats a Tope"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <!-- 2 LinearLayout -->
+    <LinearLayout
+        android:id="@+id/linear_layout_item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onClickLinear">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/pesas" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agonia Màxima"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <!-- 3 LinearLayout -->
+    <LinearLayout
+        android:id="@+id/linear_layout_item3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onClickLinear">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/futbol" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrenament Especial"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <!-- 4 LinearLayout -->
+    <LinearLayout
+        android:id="@+id/linear_layout_item4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onClickLinear">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/bailarina" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Força i longitud"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+</LinearLayout>
